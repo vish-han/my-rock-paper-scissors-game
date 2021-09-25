@@ -71,8 +71,7 @@ animation-iteration-count: infinite;
     background-image: url(/assets/triangle.png);
     background-repeat: no-repeat;
  background-position: center;
-}
-.scissors{
+}.scissors{
     margin-left: 20px;
 }
 .paper{
@@ -85,8 +84,52 @@ margin-right: 20px;
   
   .hands .hand:hover {
     transform: translate3d(0px, -8px, 0px);
-  }
+}
 
+.contest{
+    display: none;
+    margin-top: 50px;
+    width: 900px;
+}
+.contest img{
+    width: 275px;
+    height: 275px;
+}
+.contest > div{
+    flex: 1;
+}
+.contest h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contest .handImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.refree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.refree h1{
+    font-size: 45px;
+}
+.newGame{
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor:pointer;
+    color: hsl(229, 25%, 31%);
+    transition: all 0.15s;
+}
+.newGame:hover{
+    background-color: bisque;
+    transform: translate3d(0px ,-2px,0px);
+}
 /* Animations */
 @keyframes borderchange{
     from{
