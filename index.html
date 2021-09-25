@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Rock-Paper-Scissor</title>
+    <script src="/js/index.js"></script>
 </head>
 
 <body>
@@ -21,13 +22,18 @@
                 <h1>0</h1>
             </div>
         </div>
-        
-            <div class="rulesboard">
-                <div class="rules">
-                    RULES
-                </div>
+        <div class="hands">
+
+            <div class="hand paper" onclick="pickuserHand('paper')">
+                <img src="/assets/Paper.png" alt="" srcset="">
             </div>
-      
+            <div class="hand scissors" onclick="pickuserHand('scissors')">
+                <img src="/assets/Scissors.png" alt="" srcset="">
+            </div>
+            <div class="hand rock" onclick="pickuserHand('rock')">
+                <img src="/assets/Rock.png" alt="" srcset="">
+            </div>
+        </div>
     </div>
 </body>
 
