@@ -38,19 +38,19 @@
             <div class="userhand">
                 <h1>YOU PICKED</h1>
                 <div class="handImageContainer">
-                    <img id="userpickimage"src="/assets/Paper.png" alt="" srcset="">
+                    <img id="userPickImage" class ="UserPickImage"src="/assets/Paper.png" alt="" srcset="">
                 </div>
             </div>
             <div class="refree">
-                <div class="decision"><h1>YOU LOSE!</h1></div>
-                <div class="newGame">
+                <div id="Decision" class="decision"><h1>YOU LOSE!</h1></div>
+                <div class="newGame" onclick="restartGame()">
                    PLAY AGAIN 
                 </div>
             </div>
             <div class="computerhand">
                 <h1>THE HOUSE PICKED</h1>
                 <div class="handImageContainer">
-                    <img src="/assets/Rock.png" alt="" srcset="">
+                    <img id="computerPickImage"src="/assets/Rock.png" alt="" srcset="">
                 </div>
         </div>
     </div>
